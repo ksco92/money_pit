@@ -1,0 +1,10 @@
+### Send a file
+POST http://127.0.0.1:8000/to_markdown/
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="Invoice_5842.pdf"
+Content-Type: text/plain
+
+< /Users/rodrigocarvajal/Documents/projects/money_pit/input.pdf
+--WebAppBoundary--
